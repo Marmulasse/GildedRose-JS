@@ -1,0 +1,29 @@
+{
+  "name": "gilded-rose-javascript",
+  "version": "1.0.0",
+  "description": "The famous GildedRose",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marmulasse/gilded-rose-javascript.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marmulasse/gilded-rose-javascript/issues"
+  },
+  "homepage": "https://github.com/Marmulasse/gilded-rose-javascript#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}
