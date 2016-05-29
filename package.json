@@ -7,6 +7,7 @@
     "test": "test"
   },
   "scripts": {
+    "pretest": "tsc",
     "test": "mocha --recursive"
   },
   "repository": {
@@ -25,5 +26,9 @@
   "devDependencies": {
     "chai": "^3.4.1",
     "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "typescript": "^1.8.10",
+    "lodash": "^4.13.1"
   }
 }
