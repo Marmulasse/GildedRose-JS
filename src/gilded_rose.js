@@ -13,7 +13,7 @@ items.push(new Item('Sulfuras, Hand of Ragnaros', 0, 80));
 items.push(new Item('Backstage passes to a TAFKAL80ETC concert', 15, 20));
 items.push(new Item('Conjured Mana Cake', 3, 6));
 
-function update_quality() {
+var update_quality = function () {
   for (var i = 0; i < items.length; i++) {
     if (items[i].name != 'Aged Brie' && items[i].name != 'Backstage passes to a TAFKAL80ETC concert') {
       if (items[i].quality > 0) {
@@ -59,4 +59,5 @@ function update_quality() {
       }
     }
   }
-}
+};
+exports["default"] = {GildedRose : {updateQuality : update_quality, items : items}};
